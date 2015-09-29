@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/top_0"
+            android:layout_width="88dip"
+            android:layout_height="50dip"
+            android:gravity="center"
+            android:text="名称" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="#20000000" />
+
+        <com.yds.tabledemo.TableScrollView
+            android:id="@+id/table_tob_sv"
+            android:layout_width="match_parent"
+            android:layout_height="50dip" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/top_1"
+                    android:layout_width="88dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="A_头" />
+
+                <TextView
+                    android:id="@+id/top_2"
+                    android:layout_width="88dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="B_头" />
+
+                <TextView
+                    android:id="@+id/top_3"
+                    android:layout_width="88dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="C_头" />
+
+                <TextView
+                    android:id="@+id/top_4"
+                    android:layout_width="88dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="D_头" />
+
+                <TextView
+                    android:id="@+id/top_5"
+                    android:layout_width="88dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="E_头" />
+            </LinearLayout>
+        </com.yds.tabledemo.TableScrollView>
+    </LinearLayout>
+
+</LinearLayout>
